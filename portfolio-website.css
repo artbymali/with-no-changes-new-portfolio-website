@@ -26,26 +26,18 @@ span.material-symbols-outlined{
     z-index: +100000;
 }
 
-html::-webkit-scrollbar{
-    width: 20px;
-}
-
-html{
-    scroll-behavior: smooth;
-    scrollbar-width: 2rem;
-    scrollbar-color: red;
-}
-
 ::-webkit-scrollbar{
     width: 2rem;
 }
 
 ::-webkit-scrollbar-track{
-    background: hsl(120 75% 50% / 1);
+    background: hsl(0, 0%, 20%);
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #8a2be2;
+    background-color: #050505;
+    border-radius: 100%;
+    border: 1px solid hsl(0, 0%, 20%) inset ;
 }
 
 .nav{
@@ -709,6 +701,3 @@ button.butt:hover{
 .icons-row:hover{
     transform: translateY(-4px);
 }
-
-
-
